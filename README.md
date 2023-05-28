@@ -1,16 +1,15 @@
+<!---
 - 👋 Hi, I’m TZU-YUN,CHENG
 
-- 👀 I’m interested in python ML,DL and Statistic
+- 🌱 An university student currently studying in Taiwan
 
-- 🌱 I’m currently learning PHP
+- 👀 I’m interested in web design
+
+- 🦀 A crazy foodie as well
 
 - 📫 ivy45358@yahoo.com.tw
 
-<!---
-- 👀 I’m interested in ...
-- 💞️ I’m looking to collaborate on ...
-
-howard3517/howard3517 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ivy45358/110403002 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 
