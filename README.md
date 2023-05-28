@@ -1,10 +1,10 @@
-- 👋 Hi, I’m Howard
+- 👋 Hi, I’m TZU-YUN,CHENG
 
 - 👀 I’m interested in python ML,DL and Statistic
 
 - 🌱 I’m currently learning PHP
 
-- 📫 Howardtsai1127@gmail.com
+- 📫 ivy45358@yahoo.com.tw
 
 <!---
 - 👀 I’m interested in ...
