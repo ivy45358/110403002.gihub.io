@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CV</title>
+        <title>程子芸的CV</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <div>
-            <h1>履歷</h1>
-            <ol>
-                <li><h2><a href="#a">基本資料</a></h2></li><!--連結在不同情況會有不同顏色-->
-                <li><h2><a href="#b">學歷</a></h2></li>
-                <li><h2><a href="#c">自傳</a></h2></li>
-            </ol>
-            <br><br><br><br>
+        <div id="a">
+            <center>
+                <h1>履歷</h1>
+                <ol>
+                    <li><h2><a href="#a">基本資料</a></h2></li><!--連結在不同情況會有不同顏色-->
+                    <li><h2><a href="#b">學歷</a></h2></li>
+                    <li><h2><a href="#c">自傳</a></h2></li>
+                </ol>
+                <br></br>
+            </center>
         </div>
         <div>
             <center>
                 <button type="button" onclick="f()">change mode</button>
             </center>
-            <br><br><br><br>
+            <br></br>
         </div>
-        <div id="a">
+        <div id="b">
             <center>
-                <img src="me.jpeg" alt = 'this is me.' width="20%">
-                <table border="3">
+                <img src="me.jpeg" alt = 'this is me.' width="40%">
+                <table>
                     <thead>
                         <th colspan="4">基本資料</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td>姓名</td>
-                            <td>蔡皓鈞</td>
+                            <td>程子芸</td>
                             <td>年齡</td>
-                            <td>20</td>
+                            <td>22</td>
                         </tr>
                         <tr>
                             <td>生日</td>
-                            <td>90/1/5</td>
-                            <td>兵役</td>
-                            <td>未役</td>
+                            <td>89/12/07</td>
+                            <td>星座</td>
+                            <td>射手座</td>
                         </tr>
                         <tr>
                             <td>電話</td>
-                            <td>0983239329</td>
+                            <td>0123456789</td>
                             <td>Email</td>
-                            <td>aabbbec.gmail.com</td>
+                            <td>aaabbc.gmail.com</td>
                         </tr>
                     </tbody>
                 </table>
@@ -53,36 +55,28 @@
             <br><br><br><br>
             <hr>
         </div>
-        <div id="b">
+        <div id="c">
             <center>
                 <h3>學歷</h3>
                 <ul>
                     <li><a href = "https://www.ncu.edu.tw/tw/index.html" target=" _blank">中央大學</a>    資管系    就學中</li>
+                    <li><a href = "https://www.nycu.edu.tw" target=" _blank">陽明大學</a>    護理系    已休學</li>
                     <li><a href = "https://www.yphs.tp.edu.tw/tc_index.asp" target="_blank">延平中學</a>    普通科    已畢業</li>
                 </ul>
             </center>
             <br><br><br><br>
             <hr>
         </div>
-        <div id="c">
+        <div id="d">
             <center>
                 <h3>自傳</h3>
-                <p>我是就讀中央大學資訊管理系二年級的蔡皓鈞，我會用三個詞來形容我自己，積極、
-                    喜歡挑戰和樂觀，以下逐一說明。一、積極:對於我想得到的我都會盡量去爭取，例
-                    如:我雖然是資管系但我對金融相關也有興趣，我便去參加銀行的暑期實習，目前也
-                    正在輔修財金系。二、喜歡挑戰:每當面臨難題我唯一的想法是跨越過後將會有獲得
-                    多大的成就感，例如:我現在的工讀所面臨的，我們計畫要做出學校的課程地圖，即
-                    使這計畫充滿難關，我仍迫不急待想完成它，因為他將會讓我更加進步。三、樂觀:
-                    面對困境我也有個不輕言放棄的心態，例如:在大一下時我報名了資訊種子的營隊，
-                    運氣很好的通過了書審進入團體面試，但由於面試經驗不足且經歷也不敵大三大四的
-                    學長姐，我無緣入選進營隊，儘管難過及失落，但轉念一想我仍從那次經驗中獲得了
-                    許多寶貴的經驗，將此失敗經驗成為我為了的墊腳石。</p>
+                <p>哈囉我叫程子芸，是一位多才多藝、熱情且具有創造力的人。我對於學習新事物充滿熱情，並且具有快速學習和適應的能力。我擅長溝通和團隊合作，並樂於與不同背景的人合作。在過去的經驗中，我培養了良好的組織能力和解決問題的能力。我喜歡挑戰自己，並持續追求個人和職業的成長。我相信通過不斷學習和不斷挑戰自己，我可以實現更多的目標並取得成功。</p>
             </center>
         </div>
         <div>
             <center>
                 <h3>列印履歷</h3>
-                <button onclick="print()">Print</button>
+                <button type="button" onclick="print()">Print</button>
             </center>
         </div>
         <script>
@@ -93,9 +87,8 @@
 
             onlaod = showmsg();
             function showmsg(){
-                alert('歡迎來看我的履歷\n我是蔡皓鈞');
+                alert('歡迎來看我的履歷\n我是程子芸');
             }
         </script>
     </body>
 </html>
-  
