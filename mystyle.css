@@ -1,0 +1,26 @@
+a:link {color : peru;}
+a:visited {color: red;}
+a:hover {color : rgb(13, 186, 56);}
+a:active {color : rgb(248, 47, 255);}
+
+body{
+    background-color: white;
+    color:black;
+}
+.change{
+    background-color: black;
+    color : white;
+}
+
+::marker{
+    color: rgb(3, 184, 130);
+    font-size: 12;
+}
+
+::selection{
+    color: cyan;
+}
+h3::first-letter{
+    font-size: 150%;
+    color: blueviolet;
+}
